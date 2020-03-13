@@ -1,5 +1,6 @@
 ## Bug fixes
 
+- Fixes memory leak when indexing product models with a lot of product models in the same family
 - PIM-9119: Fix missing warning when using mass edit with parent filter set to empty
 - PIM-9114: fix errors on mass action when the parent filter is set to empty
 - PIM-9110: avoid deadlock error when loading product and product models in parallel with the API
